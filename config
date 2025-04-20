@@ -19,6 +19,12 @@ set $altmod Mod1
 set $primary-monitor DP-3
 set $left-monitor HDMI-1
 
+# fonts for sharing between files
+set $default-font pango:IosevkaTerm Nerd Font Mono
+# set $default-font pango:BigBlueTermPlus Nerd Font
+#set $default-font pango:Terminess Nerd Font Mono
+
+
 
 ## INCLUDES 
 # include everything in /modules subdirectory 
