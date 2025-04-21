@@ -32,3 +32,4 @@ include ~/.config/i3/modules/*.conf
 
 # Ensure outputs are configured correctly, X sometimes runs this before we're ready for it 
 exec "~/.xinitrc"
+exec "picom &"
