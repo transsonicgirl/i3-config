@@ -16,8 +16,8 @@ set $altmod Mod1
 
 
 # monitor assignment
-set $primary-monitor DP-3
-set $left-monitor HDMI-1
+set $primary-monitor DP-2
+set $left-monitor DP-1
 
 # fonts for sharing between files
 set $default-font pango:IosevkaTerm Nerd Font Mono
