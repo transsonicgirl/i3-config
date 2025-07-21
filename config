@@ -16,11 +16,13 @@ set $altmod Mod1
 
 
 # monitor assignment
-set $primary-monitor DP-2
-set $left-monitor DP-1
+set $primary-monitor DP-4
+set $left-monitor DP-0
+set $right-monitor DP-6
+set $top-monitor DP-2
 
 # fonts for sharing between files
-set $default-font pango:IosevkaTerm Nerd Font Mono
+set $default-font pango:Mononoki Nerd Font Mono
 # set $default-font pango:BigBlueTermPlus Nerd Font
 #set $default-font pango:Terminess Nerd Font Mono
 
@@ -32,4 +34,3 @@ include ~/.config/i3/modules/*.conf
 
 # Ensure outputs are configured correctly, X sometimes runs this before we're ready for it 
 exec "~/.xinitrc"
-exec "picom &"
